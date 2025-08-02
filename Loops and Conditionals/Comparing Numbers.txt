@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read num1
 read num2
 
@@ -11,4 +13,5 @@ fi
 
 if [ $num1 -eq $num2 ]; then
     echo "X is equal to Y"
+
 fi
