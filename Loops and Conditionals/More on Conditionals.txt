@@ -1,0 +1,11 @@
+read costat1
+read costat2
+read costat3
+
+if [[ $costat1 -eq $costat2 && $costat1 -eq $costat3 && $costat2 -eq $costat3 ]]; then
+    echo "EQUILATERAL"
+elif [[ $costat1 -eq $costat2 || $costat1 -eq $costat3 || $costat2 -eq $costat3 ]]; then
+    echo "ISOSCELES"
+else 
+    echo "SCALENE"
+fi
