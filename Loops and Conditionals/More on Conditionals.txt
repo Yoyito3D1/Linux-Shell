@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read costat1
 read costat2
 read costat3
@@ -8,4 +10,5 @@ elif [[ $costat1 -eq $costat2 || $costat1 -eq $costat3 || $costat2 -eq $costat3 
     echo "ISOSCELES"
 else 
     echo "SCALENE"
+
 fi
