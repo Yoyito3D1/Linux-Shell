@@ -1,0 +1,4 @@
+#!/bin/bash
+
+read expr
+printf "%.3f\n" $(echo "scale=10; $expr" | bc -l)
