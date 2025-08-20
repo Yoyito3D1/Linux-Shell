@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read n
+read -a arr
+result=0
+for num in "${arr[@]}"; do
+  result=$((result ^ num))
+done
+echo $result
